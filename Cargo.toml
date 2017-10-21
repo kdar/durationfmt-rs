@@ -1,9 +1,11 @@
 [package]
 name = "durationfmt"
+description = "A Rust library to format std::time::Duration the same way Go does. "
 version = "0.1.0"
 authors = ["kdar <kevin@outroot.com>"]
 repository = "https://github.com/kdar/durationfmt-rs"
 readme = "README.md"
 keywords = ["duration", "format"]
+license = "MIT"
 
 [dependencies]
