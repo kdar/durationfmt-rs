@@ -4,10 +4,10 @@
 
 use std::time::Duration;
 
-// Returns a string representing the duration in the form "72h3m0.5s".
-// Leading zero units are omitted. As a special case, durations less than one
-// second format use a smaller unit (milli-, micro-, or nanoseconds) to ensure
-// that the leading digit is non-zero. The zero duration formats as 0s.
+/// Returns a string representing the duration in the form "72h3m0.5s".
+/// Leading zero units are omitted. As a special case, durations less than one
+/// second format use a smaller unit (milli-, micro-, or nanoseconds) to ensure
+/// that the leading digit is non-zero. The zero duration formats as 0s.
 pub fn to_string(d: Duration) -> String {
   let mut buf = vec![0u8; 32];
   let mut w = buf.len();
