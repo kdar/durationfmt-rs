@@ -2,5 +2,8 @@
 name = "durationfmt"
 version = "0.1.0"
 authors = ["kdar <kevin@outroot.com>"]
+repository = "https://github.com/kdar/durationfmt-rs"
+readme = "README.md"
+keywords = ["duration", "format"]
 
 [dependencies]
