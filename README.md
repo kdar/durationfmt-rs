@@ -11,7 +11,7 @@ Add to your Cargo.toml file:
 
 ```toml
 [dependencies]
-durationfmt = { git = "https://github.com/kdar/durationfmt-rs", branch = "master"}
+durationfmt = { git = "https://github.com/kdar/durationfmt-rs.git" }
 ```
 
 and this to your crate root:
